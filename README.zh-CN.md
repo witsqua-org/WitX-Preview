@@ -104,7 +104,7 @@ Gateway 只向外连接，手机不需要开放端口。详见 [docs/architectur
 **1. 安装与配置**
 
 ```sh
-git clone https://github.com/FoLAWy-py/WitX-Preview.git && cd WitX-Preview
+git clone https://github.com/witsqua-org/WitX-Preview.git && cd WitX-Preview
 make setup
 cp .env.example .env                                   # 填写 OPENAI_API_KEY 和 WITX_DEFAULT_MODEL
 cp services/gateway/gateway.fake.toml gateway.toml
@@ -178,7 +178,7 @@ uv run witx-gateway --config gateway.toml setup    # 列出修复步骤，逐项
 | **替我批准**（默认） | 付款、删除、分享个人信息、修改账户、敏感 App 中的输入，以及风险判定无法评估的操作。发消息和稍后才付款的下单直接进行。 |
 | **完全访问** | 只有付款和转账。需要 Owner 先启用。 |
 
-输入框常用命令：`/goal`（设置、暂停或清除目标）、`/plan`（先做计划，批准后才修改）、`/skill`（把这个任务起草成 Skill）、`/schedule`、`/constraints`，用 `$名字` 点名一个 Skill。可选 Plugin 来自 [Preview marketplace](https://github.com/FoLAWy-py/witx-plugins-preview)：
+输入框常用命令：`/goal`（设置、暂停或清除目标）、`/plan`（先做计划，批准后才修改）、`/skill`（把这个任务起草成 Skill）、`/schedule`、`/constraints`，用 `$名字` 点名一个 Skill。可选 Plugin 来自 [Preview marketplace](https://github.com/witsqua-org/witx-plugins-preview)：
 
 ```sh
 uv run witx plugin install basics    # 先展示全文，确认后才安装

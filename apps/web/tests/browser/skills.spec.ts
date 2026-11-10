@@ -498,7 +498,7 @@ const OFFER = {
   version: "1.2.0",
   description: "Basic know-how.",
   skills: ["basics:test-records"],
-  source: "https://github.com/FoLAWy-py/witx-plugins-preview.git",
+  source: "https://github.com/witsqua-org/witx-plugins-preview.git",
   commit: "a".repeat(40),
   sha256: "b".repeat(64),
   trouble: [],

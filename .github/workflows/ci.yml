@@ -57,7 +57,7 @@ jobs:
       # or effect shows here, naming the skills to change in witx-plugins-preview.
       - name: Check Preview plugin compatibility
         run: |
-          git clone --depth 1 https://github.com/FoLAWy-py/witx-plugins-preview.git "$RUNNER_TEMP/witx-plugins-preview"
+          git clone --depth 1 https://github.com/witsqua-org/witx-plugins-preview.git "$RUNNER_TEMP/witx-plugins-preview"
           uv run --locked witx plugin check "$RUNNER_TEMP/witx-plugins-preview"
           uv run --locked python - <<'PYTHON'
           import json

@@ -11,7 +11,7 @@ from witx.harness.plugins import Installed
 
 from tests.cloud.test_plugins import commit, plugin, prefixed, run_cli
 
-PREVIEW_SOURCE = "https://github.com/FoLAWy-py/witx-plugins-preview.git"
+PREVIEW_SOURCE = "https://github.com/witsqua-org/witx-plugins-preview.git"
 
 
 def test_the_builtin_marketplace_is_the_preview_one() -> None:

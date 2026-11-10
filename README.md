@@ -104,7 +104,7 @@ You'll need **Python 3.12+, [uv](https://docs.astral.sh/uv/), Node.js 22+, pnpm 
 **1. Install and configure**
 
 ```sh
-git clone https://github.com/FoLAWy-py/WitX-Preview.git && cd WitX-Preview
+git clone https://github.com/witsqua-org/WitX-Preview.git && cd WitX-Preview
 make setup
 cp .env.example .env                                   # set OPENAI_API_KEY and WITX_DEFAULT_MODEL
 cp services/gateway/gateway.fake.toml gateway.toml
@@ -180,7 +180,7 @@ Pick the phones, model and permission mode when you create a task, then describe
 | **Approve for me** (default) | Payments, deletions, sharing personal data, account changes, inputs in sensitive apps, and anything the risk check could not assess. Messages and orders paid for in a later step go ahead. |
 | **Full access** | Only payments and transfers. The Owner must enable this mode first. |
 
-Handy commands in the message box: `/goal` (set, pause or clear the goal), `/plan` (plan first, approve before changes), `/skill` (draft a reusable Skill from this task), `/schedule`, `/constraints`, and `$name` to ask for a specific Skill. Optional Plugins come from the [Preview marketplace](https://github.com/FoLAWy-py/witx-plugins-preview):
+Handy commands in the message box: `/goal` (set, pause or clear the goal), `/plan` (plan first, approve before changes), `/skill` (draft a reusable Skill from this task), `/schedule`, `/constraints`, and `$name` to ask for a specific Skill. Optional Plugins come from the [Preview marketplace](https://github.com/witsqua-org/witx-plugins-preview):
 
 ```sh
 uv run witx plugin install basics    # shows the full text and asks before installing

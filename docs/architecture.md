@@ -69,6 +69,6 @@ Gateway 每 30 秒刷新在线时间，90 秒没有更新时其设备下线。Ga
 
 Plugin 只含文本和元数据，不执行代码、不授予权限。安装锁定 commit 与文件摘要；不兼容当前工具或效果的 Skill 不加载。本人写的 Skill 通过本机 marketplace 保存，Agent 可以一次起草多个，由用户检查和保存。复杂任务结束后可在结果下提供保存为 Skill 的按钮，不再为此打断任务完成。同名草稿只允许最新版本保存；长上下文压缩会保留已加载 Skill 的名字和版本，提示 Agent 在继续依照它操作前重新加载。
 
-内置 marketplace 名称是 `witx-preview`，来源为 `https://github.com/FoLAWy-py/witx-plugins-preview.git`；未指定来源的 `witx plugin install basics` 使用它。安装和更新仍要求用户检查并确认。
+内置 marketplace 名称是 `witx-preview`，来源为 `https://github.com/witsqua-org/witx-plugins-preview.git`；未指定来源的 `witx plugin install basics` 使用它。安装和更新仍要求用户检查并确认。
 
 已知安全边界和 Preview 限制见 [README](../README.zh-CN.md#使用前要知道)。

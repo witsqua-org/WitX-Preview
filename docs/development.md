@@ -119,7 +119,7 @@ iOS WebDriverAgent 需要恢复时，Gateway 停止它的进程并由新会话�
 
 ## Preview 插件源
 
-内置源 `witx-preview` 对应公开仓库 `https://github.com/FoLAWy-py/witx-plugins-preview.git`，不需要手动添加。安装、查看和更新：
+内置源 `witx-preview` 对应公开仓库 `https://github.com/witsqua-org/witx-plugins-preview.git`，不需要手动添加。安装、查看和更新：
 
 ```sh
 uv run witx plugin install basics
